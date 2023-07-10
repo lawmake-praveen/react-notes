@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
   margin: 0;
 }
 * {
-  font-family: Poppins, Roboto, sans-serif;
+  font-family: Inter, sans-serif;
   transition: all 0.3s;
   outline: none;
   box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
 .app {
   background-color: #21d4fd;
   background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  min-height: 100vh;
+  height: 100vh;
   padding: 50px;
 
   .header {
@@ -62,7 +62,7 @@ body {
 
     .form {
       width: 500px;
-      height: 580px;
+      height: fit-content;
       padding: 40px;
       border-radius: 10px;
       border: none;
@@ -239,13 +239,14 @@ body {
   }
 }
 
-@media (width < 500px) {
+@media (max-width: 500px) {
   .app {
     padding: 50px 10px;
 
     .form-container {
       .form {
-        width: 380px;
+        padding: 40px 15px;
+        width: 340px;
 
         .button-area {
           button {
