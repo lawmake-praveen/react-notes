@@ -88,7 +88,7 @@ function App() {
         handleDelete={handleDelete}
         setShowDeleteMsg={setShowDeleteMsg}
       />
-            <a href="https://www.free-counters.org/">
+      <a href="https://www.free-counters.org/">
         free Counters on Free-Counters.org
       </a>{" "}
       <script
