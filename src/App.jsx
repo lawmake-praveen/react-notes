@@ -88,17 +88,6 @@ function App() {
         handleDelete={handleDelete}
         setShowDeleteMsg={setShowDeleteMsg}
       />
-      <a href="https://www.free-counters.org/">
-        free Counters on Free-Counters.org
-      </a>{" "}
-      <script
-        type="text/javascript"
-        src="https://www.freevisitorcounters.com/auth.php?id=44889294efc8c783be1bbdbcda84665f9bc84395"
-      ></script>
-      <script
-        type="text/javascript"
-        src="https://www.freevisitorcounters.com/en/home/counter/1053482/t/1"
-      ></script>
     </div>
   );
 }
